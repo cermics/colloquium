@@ -1,0 +1,10 @@
+
+{{ link.date | date : "%B %-d %Y" }}{% if link.hour != "void" %}, {{ link.hour }}{% endif %}: **{{ link.AU }}**,  
+*{{ link.TI }}*.
+{% if link.abstract %}
+<details markdown="1"><summary>Abstract</summary>{{ link.abstract }}
+</details>
+{% endif %}
+
+
+

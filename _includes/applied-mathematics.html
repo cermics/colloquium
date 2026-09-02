@@ -1,0 +1,132 @@
+<h1>Upcoming seminars</h1>
+See the <a href="https://calendar.google.com/calendar/embed?src=5e375da2e8afa22df729e4f6a1467993b104b67e8f44a4e6839d8dc1eba59524%40group.calendar.google.com&amp;ctz=Europe%2FParis">Google Agenda of the seminar</a>, and add the <a href="https://calendar.google.com/calendar/ical/5e375da2e8afa22df729e4f6a1467993b104b67e8f44a4e6839d8dc1eba59524%40group.calendar.google.com/public/basic.ics">iCal url</a> to your calendar.
+<table style="border: 1px solid;margin: 10px" rules="all" cellpadding="5px">
+<tbody>
+<tr>
+<th>When</th>
+<th>Who</th>
+<th>Where</th>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td>Jeudi 9 Avril</td>
+<td>Haitian Yang</td>
+<td>B211</td>
+</tr>
+<tr>
+<td>Jeudi 16 Avril</td>
+<td>Ines Vati</td>
+<td>B211</td>
+</tr>
+</tbody>
+</table>
+<ul>
+ 	<li>
+<h3>Haitian Yang (Tsinghua University), Thursday 9 April at 10:30, Room B211</h3>
+<strong><em>Boundary control of multi-dimensional first-order hyperbolic systems</em></strong>
+
+Boundary control of first-order hyperbolic systems has been extensively studied in the spatially one-dimensional setting. In multi-dimensions, however, progress has been limited, largely due to the loss of Riemann invariant structure. This talk reports recent progress in my doctoral research on boundary stabilization, boundary controllability, and boundary optimal control for multi-dimensional first-order hyperbolic systems. I will also highlight how energy propagation and internal interaction may provide a unifying perspective across these three problems.</li>
+ 	<li>
+<h3><a href="https://scholar.google.com/citations?user=NLlVYFQAAAAJ&amp;hl=en">Ines Vati</a> (Queensland University of Technology), Thursday 16 April at 10:30, Room tbd</h3>
+<strong><em>Fast Geometric Machine Learning Methods for Brain Image Analysis</em></strong>
+
+Alzheimer’s Disease (AD), the most common form of dementia, is characterised by the accumulation of misfolded proteins in the brain, ultimately leading to cortical atrophy and cognitive decline. Accurate measurement of the atrophy patterns is essential not only for diagnosis but also for early detection and potential prevention. However, due to the high variability in cortical geometry across individuals, population- based analyses typically rely on long, sophisticated neuroimaging pipelines for cortical feature computation and inter-subject alignment. These traditional approaches often require several days to weeks of computation for large cohorts, creating a major bottleneck for large-scale neuroimaging studies. Deep learning–based approaches have the potential to dramatically accelerate this process.
+
+In this talk, I will present the recent work conducted in our team to streamline the cortical surface-based pipeline. I will review optimization-based approaches and end-to-end deep learning methods for cortical mesh reconstruction and surface registration. Some insights into the Spherical Demons algorithm, a classical diffeomorphic registration method on the sphere, will be provided. I will then introduce NC-Reg, our novel approach for rigid registration of spherical surfaces using a neural representation. Subsequently, I will outline our ongoing and future work, with a particular focus on CorticalFlow++, a deep learning model for fast cortical mesh reconstruction directly from MRI images.
+
+We believe that this work lays a strong foundation for more eXicient, scalable, and robust tools for cortical surface analysis. These developments have the potential to enable large- cohort neuroimaging studies and ultimately contribute to both computational neuroscience and clinical applications.</li>
+</ul>
+
+<hr />
+
+<h1>Past seminars (2025-2026)</h1>
+<ul>
+ 	<li>
+<h3><a href="https://www.math.ucdavis.edu/~deloera/">Jesús De Loera</a> (UC Davis),
+Friday 5 September at 10:00, Room B211</h3>
+<strong><em>What is the Best Way to Slice a Polyhedron?</em></strong>
+
+For hundreds of years mathematicians have been fascinated with slicing high-dimensional mathematical objects as a way to get knowledge and intuition of higher dimensions. There are many classical results and conjectures (e.g., Bourgain’s conjecture, recently a theorem, on the relation of volume and area of slices). My talk is computational contribution to this subject.
+
+Given a d-dimensional convex polytope P, what is the ``best’’ slice of P by a hyperplane? Here ``best’’ can mean many possible things, analytics e.g., a slice with the largest volume? Or combinatorial, e.g., a slice with the largest number of vertices? etc. This touches on classical work by Lagrange, Bourgain, Ball, Koldobsky, Milman, Pournin, and many other mathematicians. Not only we investigate the above optimization theorem but also, as we slice P with hyperplanes, we create many combinatorially different (d-1)-slices, which are also polytopes of course. E.g., for a 3-dimensional regular cube there are 4 combinatorial types of slices (triangles, quadrilaterals, pentagons, hexagons). We investigate: How many different slices are there for a polytope P? How can we count them all? Can we give lower/upper bounds on their number? What are extremal cases?
+
+I will explain a powerful new geometric model (a moduli space of slices) and algorithmic framework that answers these problems (and others) in polynomial time when dim(P) is fixed. Moreover, we show the problems have hard complexity otherwise.
+
+This is joint work with Marie-Charlotte Brandenburg (U Bochum) and Chiara Meroni (ETH) and Antonio Torres and Gyivan López (UC Davis)</li>
+ 	<li>
+<h3><a href="https://sites.google.com/wisc.edu/mariosandreou/homepage">Marios Andreou</a> (University of Wisconsin-Madison),
+Tuesday 09 September at 10:30, Room B211</h3>
+<strong><em>Harnessing the Conditional Gaussian Nonlinear System Framework for Efficient Adaptive-Lag Online Smoothing and Causal Inference</em></strong>
+
+This talk presents recent advances in data assimilation and causal inference through the Conditional Gaussian Nonlinear System (CGNS) framework. This is a class of nonlinear stochastic models in which, conditioned on a subset of state variables, the unobserved components follow a Gaussian posterior distribution. This structure enables efficient Bayesian state estimation and sampling via closed-form solutions, making CGNS especially suitable for high-dimensional, multiscale systems with regime shifts and intermittent extreme events. CGNSs have wide applications in uncertainty quantification, modelling complex geophysical phenomena, dealing with high-dimensional systems, and facilitating machine learning.
+
+We first introduce an adaptive-lag online smoother that leverages the analytical tractability of CGNSs to effectively reduce the computational storage requirements of standard smoothing procedures. Adaptively adjusting the lag by exploiting information-theoretic criteria, this strategy is applicable to turbulent systems with time-varying temporal correlations and performs well in challenging real-world problems such as Lagrangian data assimilation and online parameter estimation.
+
+Building on this, we present a paradigm-shifting causal inference framework, called Assimilative Causal Inference (ACI), which leverages Bayesian data assimilation to trace causes backward from observed effects by solving an inverse problem rather than quantifying forward influence. It uniquely identifies dynamic causal interactions without requiring observations of candidate causes, accommodates short datasets, and scales efficiently to high dimensions. Crucially, it provides online tracking of causal roles, which may reverse intermittently, and facilitates a mathematically rigorous criterion for the causal influence range, revealing how far effects propagate. ACI opens new avenues for studying complex systems, where transient causal structures are critical. Despite its general setting, within the CGNS framework ACI enables explicit nil-causality principles and analytical characterisations of the associated causal influence ranges for objective temporal attribution and prediction.
+
+Applications to systems showcasing turbulent dynamics and nonlinear geophysical flows illustrate how CGNSs provide scalable, real-time, and theoretically grounded solutions to online smoothing and causal inference.</li>
+ 	<li>
+<h3><a href="https://www.ihes.fr/professeur/laure-saint-raymond/">Laure Saint-Raymond</a> (IHES),
+Wednesday 10 September at 14:30, Room B211</h3>
+<strong><em>Autour de l'équation de Boltzmann.</em></strong>
+
+Je présenterai quatre résultats mathématiques marquants de ces cinquante dernières années qui permettent de mieux appréhender ce modèle fondamental de la théorie cinétique des gaz.</li>
+ 	<li>
+<h3><a href="https://sites.rutgers.edu/eckstein/">Jonathan Eckstein</a> (Rutgers University),
+Thursday 2 October at 10:30, Room B211</h3>
+<strong><em>Monotone Operator Splitting, Projection, and Stochastic Programming</em></strong>
+
+We begin by describing the basics of monotone set-valued operators, proximal, methods, and operator splitting, with a particular focus on solving stochastic programming problems defined on finite multistage trees. A classic form of operator splitting is (perhaps misleadingly) called "Douglas Rachford" and underlies the now-popular ADMM algorithm. We will survey the basics of that algorithm and how it leads to the progressive hedging (PH) method of Rockafellar and Wets. Projective splitting is a newer approach to operator splitting, and allows derivation of algorithms allowing forms of asynchronous implementation. We consider a specialization of this approach to stochastic programming, producing a method that needs to re-solve only a subset of the scenarios at each iteration. We will also touch on an ongoing project to develop a more strongly asynchronous implementation and apply it to stochastic problems with integer variables.</li>
+ 	<li>
+<h3><a href="https://charles-bertucci.github.io/">Charles Bertucci</a> (École polytechnique),
+Thursday 2 October at 10:30, Room B211</h3>
+<strong><em>Analysis on the space of probability measures and application to optimal control and large deviations</em></strong>
+
+I will motivate the study of non-linear partial differential equations on the space of probability measures by presenting some general questions of optimal control and large deviations of mean field problems. I will then explain some general tools of analysis of functions of a measure argument such as derivatives or super-differentials. I will then explain how those tools can be used in the motivating problems.</li>
+ 	<li>
+<h3><a href="https://admcrae.github.io/">Andrew McRae</a> (EPFL/ CERMICS),
+Thursday 13 November at 10:30, Room B211</h3>
+<strong><em>Nonconvex optimization landscapes in statistics: benignness, relaxation, and tightness</em></strong>
+
+Nonconvex (continuous) optimization is everywhere. Classically, nonconvexity is problematic due to the possibility of spurious local optima. However, in practice, for many applications, naïve algorithms that find a local optimum give satisfactory solutions. Why is this? In my work, I try to explain theoretically how problem structure coming from statistical applications has a surprising impact on the difficulty of an optimization problem. One possible explanation is that the landscape is benign: that is, all local optima are, in fact, global optima (or at least close enough for the task at hand). When this fails, we can try to make the problem easier by relaxing or overparametrizing it. However, this then raises the questions of (a) how much do we relax (there is then often a tradeoff between the number of variables and how close the problem is to a convex one), and (b) is the relaxation tight? I will illustrate these issues and present some of my recent work in the area of low-rank matrix estimation, specifically low-rank matrix sensing and orthogonal group synchronization. These problems have applications in many areas such as computational microscopy, sensor network localization, robotics, and dynamical systems.</li>
+ 	<li>
+<h3><a href="https://cse.umn.edu/math/bernardo-cockburn">Bernardo Cockburn</a> (University of Minnesota), Tuesday 18 November at 10:30, Room B211</h3>
+<strong><em>Transforming stabilizations into Spaces</em></strong>
+
+The idea of transforming what could be called "stabilization term" of a numerical scheme into an accuracy-enhancing space is presented and explored in detail in the framework of the discontinuous Galerkin (DG) and continuous Galerkin (CG) for a simple ODE. To do that, the weak formulation of the DG method is transformed into its strong form in order to establish a simple relation between the DG and CG approximations. Using it,  a post-processed DG solution is defined which turns out to converge with one additional order than the DG approximation. We then apply the idea to the one-dimensional transport equation. It is known that, when polynomials of degree k are used, the DG approximation converges with order k+1. Nevertheless, we argue that an efficient postprocessing of the DG approximation can be defined as to converge with order 2k+1, even in unstructured meshes. We present many computational results that illustrate the behaviour of the postprocessing. We end by describing our ongoing work and the difficulties we are trying to overcome to extend this idea to multidimensional PDEs.</li>
+ 	<li>
+<h3><a href="https://alain.perso.math.cnrs.fr/">Alain Durmus</a> (CMAP, Ecole Polytechnique), Thursday 11 December at 10:30, Room B211</h3>
+<strong><em>Online Decision-Focused Learning</em></strong>
+
+The widespread deployment of Machine Learning systems everywhere raises challenges, such as dealing with interactions or competition between multiple learners. In that goal, we study multi-agent sequential decision-making by considering principal-agent interactions in a tree structure. In this problem, the reward of a player is influenced by the actions of her children, who are all self-interested and non-cooperative, hence the complexity of making good decisions. Our main finding is that it is possible to steer all the players towards the globally optimal set of actions by simply allowing single-step transfers between them. A transfer is established between a principal and one of her agents: the principal actually offers the proposed payment if the agent picks the recommended action. The analysis poses specific challenges due to the intricate interactions between the nodes of the tree and the propagation of the regret within this tree. Considering a bandit setup, we propose algorithmic solutions for the players to end up being no-regret with respect to the optimal pair of actions and incentives. In the long run, allowing transfers between players makes them act as if they were collaborating together, although they remain self-interested non-cooperative: transfers restore efficiency.</li>
+ 	<li>
+<h3><a href="https://users.flatironinstitute.org/~vchardes/">Victor Chardès</a> (Flatiron Institure, New York), Thursday 8 January at 10:30, Room B211</h3>
+<strong><em>Flow-based generative modeling of gene regulation with single-cell omics</em></strong>
+
+Single-cell omics methods provide high-throughput, molecular-scale measurements of cellular processes, offering insights into the machinery of cell fate decision-making. However, the high dimensionality, stochasticity, and cross-sectional nature of these measurements hinder their integration with biophysical models of gene regulation. My research aims to bridge this gap by combining generative AI with the biophysics of gene regulation to infer actionable and interpretable models of cell fate decision-making from single-cell omics data. In this direction, I recently developed probability flow inference (PFI), a computational approach to infer models specified by arbitrary stochastic differential equations from time-resolved single-cell RNA-seq data. I will discuss the mathematical underpinnings of the method, its relationship with the flow matching paradigm and the open mathematical questions it raises. I will show that such models not only infer better biological representations, but also generalize better to out-of-distribution data, outperforming state-of-the-art purely data-driven approaches.</li>
+ 	<li>
+<h3><a href="https://austinjstromme.github.io/">Austin J.Stromme</a> (ENSAE/CREST, Paris - Saclay), Thursday 19 February at 10:30, Room B211</h3>
+<strong><em>On the implicit regularization of Langevin dynamics with projected noise</em></strong>
+
+Motivated by the study of stochastic gradient descent for over-parameterized models, we consider Langevin dynamics with noise projected onto directions which are orthogonal to an isometric group action. Our main result identifies a novel form of implicit regularization: when the initial and target density are both invariant under the group action, projected Langevin is equivalent in law to Langevin with identity diffusion but with an additional drift term proportional to the negative log volume of the group orbit. The proof is based on constructing a certain stochastic process on the group itself, and identifies the extra drift term as the negative mean curvature of the group orbit. Based on ongoing joint work with Govind Menon and Adrien Vacher.</li>
+
+ 	<li>
+<h3><a href="https://maxzimmer.org/">Max Zimmer</a> (Zuse Institute Berlin), Monday 23 March at 10:30, Room B211</h3>
+<div class="elementToProof"><b><strong><em>Continuous Optimization for Discrete Problems: Two Stories from LLM Pruning and Discrete Geometry</em></strong></b></div>
+<div class="elementToProof"></div>
+<div class="elementToProof"><b>Abstract: </b>This talk presents two settings where continuous optimization unlocks progress on fundamentally combinatorial problems. In the first part, we consider pruning of large language models, where state-of-the-art methods operate layer-wise, minimizing a per-layer objective on a small calibration dataset. The underlying NP-hard problem is that of finding a binary mask that determines which weights to keep —  the so-called mask selection problem. We propose to relax these combinatorial constraints to their convex hull and solve the resulting convex program using the Frank-Wolfe algorithm, reducing per-layer error by up to 80% with consistent improvements in perplexity and downstream accuracy. In the second part, we turn to the Hadwiger-Nelson problem, a long-standing open problem from discrete geometry about coloring the Euclidean plane while avoiding monochromatic unit-distance pairs. Using neural networks as approximators, we reformulate this geometric coloring problem as an optimization task with a probabilistic, differentiable loss function, enabling gradient-based exploration of admissible configurations. This leads to the discovery of two novel six-colorings providing the first improvements in thirty years to the off-diagonal variant of the original problem. Despite their different origins, both lines of work share a common denominator: relax a discrete problem into a continuous one, solve it with first-order methods, and extract combinatorial structure from the solution.</div></li>
+ 	<li>
+<h3><a href="https://arxiv.org/search/math?searchtype=author&amp;query=Hsu,+W">Wen-Tai Hsu</a> (University of Maryland), Thursday 26 March at 10:30, Room B211</h3>
+<strong><em>Narrow escape problems in domains with bottlenecks</em></strong>
+
+Narrow escape problems study the behavior of Brownian motion in bounded domains with reflecting boundaries, except for small escaping regions. Domains with bottlenecks arise naturally in applications such as the transmission of ions or molecules in dendritic spines. In this talk, I will discuss the expected escape time, the distribution of exit locations, and the (un)conditional distributions of escape times. A central technical difficulty is to prove convergence to a suitable quasi-stationary distribution for an associated discretized Markov process, which plays a key role in the analysis of these quantities.</li>
+</ul>
+
+<hr />
+
+<div class="post">Archive of past seminars before 2025: <a href="https://cermics-lab.enpc.fr/seminaires/seminaire-du-laboratoire/past-scientific-computing-seminars/">here</a></div>
+
+<hr />
+
+<div class="entry">Organizers: <a href="https://thebiglouloup.github.io/loucaspillaudvivien/">Loucas Pillaud-Vivien</a>, <a href="https://urbain.vaes.uk">Urbain Vaes</a>.</div>

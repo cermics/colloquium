@@ -1,0 +1,225 @@
+-  date: 2026/05/07
+   hour: 10h30
+   AU: Christian Lubich
+   UN: Universität Tübingen
+   TI: "Dynamical low-rank approximation and time integration of tree tensor networks"
+   contents: "The talk first presents some numerical experiments with time-dependent tree
+   tensor network algorithms for the approximation of quantum spin system
+   dynamics. It continues with the basics in the design of time integration methods
+   that are robust to the typical presence of small singular values, that have good
+   structure-preserving properties (norm, energy conservation or dissipation), and
+   that allow for rank (= bond dimension) adaptivity and for parallelism. The
+   discussion of basic concepts forms the main part of the talk and will be done
+   for the smallest possible type of tensor network differential equations, namely
+   low-rank matrix differential equations, which are of interest in their own
+   right. Once this technically simplest, yet nontrivial case is understood, there
+   is a systematic path to the extension of the low-rank integrators and their
+   favourable properties to general tree tensor networks.  <br> This talk is based
+   on joint work with many colleagues and former and present students, among which
+   I wish to single out Othmar Koch for the first mathematical work on dynamical
+   low-rank approximation (DLRA) in 2007, Ivan Oseledets for jointly discovering
+   the first robust DLRA integrator in 2014 (the projector-splitting integrator),
+   Gianluca Ceruti and Jonas Kusch for jointly developing the Basis Update &amp;
+   Galerkin (BUG) integrators since 2022, and Hanna Walach, Gianluca Ceruti,
+   Dominik Sulz and Charlotte Verhoeven for the recent systematic extension from
+   low-rank matrices to general tree tensor networks both in theory and in
+   increasingly efficient implementations."
+- date: 2026/01/15
+  hour: 15h30
+  AU: Bertrand Maury
+  UN: Académie des Sciences et Université Paris-Saclay
+  TI: "Dégénérescences hilbertiennes"
+- date: 2025/10/17
+  hour: 16h
+  AU: Timothy Gowers
+  UN: Collège de France and University of Cambridge
+  TI: "Applications of Shannon entropy in combinatorics"
+- date: 2025/04/10
+  hour: 14h
+  AU: Josselin Garnier
+  UN: Académie des Sciences et École polytechnique
+  TI: "Utilisation de modèles d'ordre réduit pour l'imagerie par ondes"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_garnier.pdf"
+- date: 2024/11/20
+  hour: 14h
+  AU: François Golse
+  UN: École polytechnique
+  TI: "Distance de Wasserstein et observabilité en dynamique quantique"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_golse.pdf"
+- date: 2024/05/22
+  hour: 10h
+  AU: Nalini Anantharaman
+  UN: Académie des Science et Collège de France
+  TI: "Trou spectral des surfaces hyperboliques aléatoires"
+- date: 2024/02/09
+  hour: 10h30
+  AU: Andrea Lodi
+  UN: Cornell Tech
+  TI: "Mixed-Integer Programming: 75 years of history and the Artificial Intelligence challenge"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_lodi.pdf"
+- date: 2023/12/14
+  hour: 15h
+  AU: Andrew Stuart
+  UN: Caltech
+  TI: "Learning Solution Operators For PDEs: Algorithms, Analysis and Applications"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_stuart.pdf"
+- date: 2023/06/08
+  hour: 14h
+  AU: Peter K. Friz
+  UN: TU and WIAS Berlin
+  TI: "Reconciling Itô and rough path theory"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_friz.pdf"
+- date: 2023/04/19
+  hour: 14h
+  AU: Maciej Zworski
+  UN: University of California, Berkeley
+  TI: "Magic angles in the chiral model of twisted bilayer graphene"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_sworski.pdf"
+- date: 2022/12/12
+  hour: 14h
+  AU: Jean-Bernard Lasserre
+  UN: CNRS, Université de Toulouse
+  TI: "Moments, positive polynomials and the Christoffel function"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_lasserre.pdf"
+- date: 2022/03/10
+  hour: 14h
+  AU: Hugo Duminil-Copin
+  UN: IHES, Université de Genève
+  TI: "Symétries émergentes en physique statistique planaire"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_duminil.pdf"
+- date: 2021/10/06
+  hour: 14h
+  AU: Benoît Perthame
+  UN: Académie des Sciences, Sorbonne Université
+  TI: "Structured equations in biology"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_perthame.pdf"
+- date: 2020/01/22
+  hour: 14h
+  AU: Jean-Michel Coron
+  UN: Académie des Sciences, Sorbonne Université
+  TI: "Comment utiliser les non-linéarités pour contrôler un système"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_coron.pdf"
+- date: 2020/01/22
+  hour: 10h
+  AU: Serge Abiteboul
+  UN: Académie des Sciences, ENS/Inria, ARCEP
+  TI: "Responsible data management"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_abiteboul.pdf"
+- date: 2019/11/12
+  hour: 14h
+  AU: János Pach
+  UN: Renyi Institute Budapest and MIPT Moscow, Bézout Chair 2019
+  TI: "How to escape the curse of dimensionality in combinatorics"
+  note: Jointly organized with Labex Bézout
+- date: 2019/09/20
+  hour: 10h
+  AU: Stéphane Mallat
+  UN: Collège de France et Académie des Sciences
+  TI: "Mathematical Mysteries of Deep Neural Networks"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_mallat.pdf"
+- date: 2019/06/25
+  hour: 10h
+  AU: Alice Guionnet
+  UN: ENS Lyon et Académie des Sciences
+  TI: "Entropie et grandes déviations en théorie des matrices aléatoires"
+- date: 2019/01/10
+  hour: 10h
+  AU: Frank Merle
+  UN: Université de Cergy-Pontoise et IHES
+  TI: "Asymptotics for Critical Nonlinear Dispersive Equations"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_merle.pdf"
+- date: 2018/11/20
+  hour: 10h
+  AU: Felix Otto
+  UN: MPI Leipzig
+  TI: "Randomness in Partial Differential Equations"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_otto.pdf"
+- date: 2018/10/25
+  hour: 9h
+  AU: R. Tyrrell Rockafellar
+  UN: University of Washington
+  TI: "Part I: The Role of Convex Analysis in Optimization"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_rockafellar_1.pdf"
+  TIb: "Part II: Progressive Decoupling of Linkages in Optimization with Elicitable Convexity"
+  slidesb: "https://gitlab.enpc.fr/archives/colloquium/slides_rockafellar_2.pdf"
+- date: 2018/09/04
+  hour: 14h
+  AU: Carsten Carstensen
+  UN: Humboldt-Universität zu Berlin, Germany
+  TI: "Discontinuous Petrov-Galerkin Schemes"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_carstensen.pdf"
+- date: 2018/06/07
+  hour: 15h30
+  AU: Bjorn Engquist
+  UN: The University of Texas at Austin
+  TI: "Multiscale dynamical systems and parareal algorithms"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_engquist.pdf"
+- date: 2018/05/31
+  hour: 15h15
+  AU: Arturo Kohatsu-Higa
+  UN: Ritsumeikan University
+  TI: "IPB pour diffusions arrêtées"
+- date: 2018/05/18
+  hour: 16h
+  AU: Panagiotis Souganidis
+  UN: The University of Chicago
+  TI: "Nonlinear stochastic partial differential equations"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_souganidis.pdf"
+- date: 2018/03/05
+  hour: 10h30
+  AU: Yann Brenier
+  UN: ENS
+  TI: "Le problème de Cauchy pour les systèmes de lois de conservation entropiques traité par minimisation convexe"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_brenier.pdf"
+- date: 2017/12/18
+  hour: 14h
+  AU: Laure Saint-Raymond
+  UN: ENS de Lyon et Académie des Sciences
+  TI: "Forçage quasi-résonnant d’ondes internes dans un domaine avec topographie (en collaboration avec Yves Colin de Verdière)"
+- date: 2017/10/04
+  hour: 15h30
+  AU: Daniel Kuhn
+  UN: EPFL
+  TI: "Data-driven Distributionally Robust Optimization Using the Wasserstein Metric: Performance Guarantees and Tractable Reformulations"
+- date: 2017/06/15
+  hour: 10h
+  AU: Arnak Dalalyan
+  UN: ENSAE
+  TI: "On the Exponentially Weighted Aggregate with the Laplace Prior"
+- date: 2016/10/17
+  hour: 14h
+  AU: Mitchell Luskin
+  UN: University of Minnesota
+  TI: "Mathematical Modelling of Incommensurate Materials"
+- date: 2016/06/07
+  hour: 10h
+  AU: Common seminar CERMICS/IMAGINE
+  sem: scommun
+  PROG:
+  - date: 2016/06/07
+    hour: 10h
+    TI: "Representing 3D models for matching and retrieving"
+    AU: Mathieu Aubry
+    UN: IMAGINE, École des Ponts ParisTech
+    abstract: "https://gitlab.enpc.fr/archives/colloquium/abstract_aubry.pdf"
+  - date: 2016/06/07
+    hour: 11h
+    TI: "Beyond stochastic gradient descent for large-scale machine learning"
+    AU: Francis Bach
+    UN: Inria et ENS
+    abstract: "https://gitlab.enpc.fr/archives/colloquium/abstract_bach.pdf"
+    slides: assets/colloquium/slides_bach.pdf
+- date: 2016/03/30
+  hour: 14h
+  AU: Emilie Kaufmann
+  UN: CNRS
+  TI: "Multi-armed bandit models: a tutorial"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_kaufmann.pdf"
+- date: 2015/11/30
+  hour: 14h
+  AU: Hugo Touchette
+  UN: National Institute for Theoretical Physics
+  TI: "Théorie des grandes déviations : des mathématiques à la physique"
+  slides: "https://gitlab.enpc.fr/archives/colloquium/slides_touchette.pdf"
+  
+
