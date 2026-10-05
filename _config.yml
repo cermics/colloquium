@@ -12,6 +12,11 @@
 # Name of website
 title: Cermics
 
+# URL the website name (or the title image) points to in the navigation bar.
+# By default it links to the home page of this site; set it to link elsewhere,
+# including an external address.
+title-url: "https://cermics.github.io/cermics/"
+
 # Your name to show in the footer
 author: cermics
 
