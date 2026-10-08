@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Cermics
+title: CERMICS
 
 # URL the website name (or the title image) points to in the navigation bar.
 # By default it links to the home page of this site; set it to link elsewhere,
@@ -25,6 +25,7 @@ author: cermics
 ###############################################
 
 navbar-links:
+  News: "https://cermics.github.io/cermics/news"
   Organization:
     - Overall Organization: "https://cermics.github.io/cermics/overall"
     - Applied Probability: "https://cermics.github.io/cermics/applied-probability"
@@ -38,8 +39,7 @@ navbar-links:
     - Teaching: "https://cermics.github.io/cermics/teaching"
     - Activity reports: "https://cermics.github.io/cermics/activity-reports"
     - Evaluation reports: "https://cermics.github.io/cermics/evaluation-reports"
-  Cauchy Fellowship: "https://cermics.github.io/cermics/cauchy-fellowship"
-  News: "https://cermics.github.io/cermics/news"
+#  Cauchy Fellowship: "https://cermics.github.io/cermics/cauchy-fellowship"
   Seminars:
     - Colloquium: ""
     - Applied Mathematics: "https://cermics.github.io/applied-mathematics"
