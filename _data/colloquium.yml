@@ -1,29 +1,66 @@
--  date: 2026/05/07
-   hour: 10h30
-   AU: Christian Lubich
-   UN: Universität Tübingen
-   TI: "Dynamical low-rank approximation and time integration of tree tensor networks"
-   contents: "The talk first presents some numerical experiments with time-dependent tree
-   tensor network algorithms for the approximation of quantum spin system
-   dynamics. It continues with the basics in the design of time integration methods
-   that are robust to the typical presence of small singular values, that have good
-   structure-preserving properties (norm, energy conservation or dissipation), and
-   that allow for rank (= bond dimension) adaptivity and for parallelism. The
-   discussion of basic concepts forms the main part of the talk and will be done
-   for the smallest possible type of tensor network differential equations, namely
-   low-rank matrix differential equations, which are of interest in their own
-   right. Once this technically simplest, yet nontrivial case is understood, there
-   is a systematic path to the extension of the low-rank integrators and their
-   favourable properties to general tree tensor networks.  <br> This talk is based
-   on joint work with many colleagues and former and present students, among which
-   I wish to single out Othmar Koch for the first mathematical work on dynamical
-   low-rank approximation (DLRA) in 2007, Ivan Oseledets for jointly discovering
-   the first robust DLRA integrator in 2014 (the projector-splitting integrator),
-   Gianluca Ceruti and Jonas Kusch for jointly developing the Basis Update &amp;
-   Galerkin (BUG) integrators since 2022, and Hanna Walach, Gianluca Ceruti,
-   Dominik Sulz and Charlotte Verhoeven for the recent systematic extension from
-   low-rank matrices to general tree tensor networks both in theory and in
-   increasingly efficient implementations."
+# Colloquium du CERMICS, du plus récent au plus ancien.
+#
+# Champs d'une séance :
+#   date      AAAA/MM/JJ (obligatoire)
+#   hour      ex. 14h, ou "void" pour ne pas afficher d'heure
+#   AU, UN    orateur, affiliation
+#   TI        titre (entre guillemets)
+#   slides    lien (URL complète ou chemin local comme assets/colloquium/x.pdf)
+#   abstract  lien vers un PDF de résumé
+#   contents  résumé affiché dans un bloc dépliable (Markdown accepté)
+#   TIb, slidesb, abstractb   second exposé du même orateur
+#   note      mention affichée en italique (co-organisation, etc.)
+#   room      salle (par défaut : Salle de séminaire du CERMICS)
+#   next      true pour la séance à venir : elle s'affiche en « Next session »
+#             et est retirée des séances passées. Après la séance, supprimer
+#             la ligne `next: true`.
+#   sem: scommun + PROG   séance commune à plusieurs exposés
+#
+# Modèle pour la prochaine séance (décommenter et remplir) :
+# - date: 2027/01/14
+#   hour: 14h
+#   AU: Prénom Nom
+#   UN: Institution
+#   TI: "Titre"
+#   contents: >-
+#     Résumé.
+#   next: true
+
+- date: 2027/01/19
+  hour: 11h
+  AU: Gianni Dal Maso
+  UN: SISSA, Trieste, et membre correspondant Istituto Veneto di Scienze, Lettere ed Arti & Accademia Nazionale dei Lincei
+  TI: "TBA"
+  room: Salle de séminaire du CERMICS
+  next: true
+
+- date: 2026/05/07
+  hour: 10h30
+  AU: Christian Lubich
+  UN: Universität Tübingen
+  TI: "Dynamical low-rank approximation and time integration of tree tensor networks"
+  contents: >-
+    The talk first presents some numerical experiments with time-dependent tree
+    tensor network algorithms for the approximation of quantum spin system
+    dynamics. It continues with the basics in the design of time integration methods
+    that are robust to the typical presence of small singular values, that have good
+    structure-preserving properties (norm, energy conservation or dissipation), and
+    that allow for rank (= bond dimension) adaptivity and for parallelism. The
+    discussion of basic concepts forms the main part of the talk and will be done
+    for the smallest possible type of tensor network differential equations, namely
+    low-rank matrix differential equations, which are of interest in their own
+    right. Once this technically simplest, yet nontrivial case is understood, there
+    is a systematic path to the extension of the low-rank integrators and their
+    favourable properties to general tree tensor networks. <br> This talk is based
+    on joint work with many colleagues and former and present students, among which
+    I wish to single out Othmar Koch for the first mathematical work on dynamical
+    low-rank approximation (DLRA) in 2007, Ivan Oseledets for jointly discovering
+    the first robust DLRA integrator in 2014 (the projector-splitting integrator),
+    Gianluca Ceruti and Jonas Kusch for jointly developing the Basis Update &amp;
+    Galerkin (BUG) integrators since 2022, and Hanna Walach, Gianluca Ceruti,
+    Dominik Sulz and Charlotte Verhoeven for the recent systematic extension from
+    low-rank matrices to general tree tensor networks both in theory and in
+    increasingly efficient implementations.
 - date: 2026/01/15
   hour: 15h30
   AU: Bertrand Maury
@@ -49,7 +86,7 @@
 - date: 2024/05/22
   hour: 10h
   AU: Nalini Anantharaman
-  UN: Académie des Science et Collège de France
+  UN: Académie des Sciences et Collège de France
   TI: "Trou spectral des surfaces hyperboliques aléatoires"
 - date: 2024/02/09
   hour: 10h30
@@ -108,7 +145,7 @@
 - date: 2019/11/12
   hour: 14h
   AU: János Pach
-  UN: Renyi Institute Budapest and MIPT Moscow, Bézout Chair 2019
+  UN: Rényi Institute Budapest and MIPT Moscow, Bézout Chair 2019
   TI: "How to escape the curse of dimensionality in combinatorics"
   note: Jointly organized with Labex Bézout
 - date: 2019/09/20
@@ -150,7 +187,7 @@
   slides: "https://gitlab.enpc.fr/archives/colloquium/slides_carstensen.pdf"
 - date: 2018/06/07
   hour: 15h30
-  AU: Bjorn Engquist
+  AU: Björn Engquist
   UN: The University of Texas at Austin
   TI: "Multiscale dynamical systems and parareal algorithms"
   slides: "https://gitlab.enpc.fr/archives/colloquium/slides_engquist.pdf"
@@ -196,17 +233,15 @@
   AU: Common seminar CERMICS/IMAGINE
   sem: scommun
   PROG:
-  - date: 2016/06/07
-    hour: 10h
-    TI: "Representing 3D models for matching and retrieving"
+  - hour: 10h
     AU: Mathieu Aubry
     UN: IMAGINE, École des Ponts ParisTech
+    TI: "Representing 3D models for matching and retrieving"
     abstract: "https://gitlab.enpc.fr/archives/colloquium/abstract_aubry.pdf"
-  - date: 2016/06/07
-    hour: 11h
-    TI: "Beyond stochastic gradient descent for large-scale machine learning"
+  - hour: 11h
     AU: Francis Bach
     UN: Inria et ENS
+    TI: "Beyond stochastic gradient descent for large-scale machine learning"
     abstract: "https://gitlab.enpc.fr/archives/colloquium/abstract_bach.pdf"
     slides: assets/colloquium/slides_bach.pdf
 - date: 2016/03/30
@@ -221,5 +256,3 @@
   UN: National Institute for Theoretical Physics
   TI: "Théorie des grandes déviations : des mathématiques à la physique"
   slides: "https://gitlab.enpc.fr/archives/colloquium/slides_touchette.pdf"
-  
-
